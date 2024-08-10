@@ -1,0 +1,325 @@
+version: "3.1"
+
+nlu:
+  - intent: restriction_on_increasing_rent
+    examples: |
+      - Tell me about the restriction on increasing rent
+      - What are the rules for increasing rent?
+      - Explain the restriction on increasing rent
+
+  - intent: charging_of_premium_prohibited
+    examples: |
+      - Can landlords charge a premium for tenancy renewal?
+      - Tell me about the prohibition on charging premiums
+      - Explain the rules about charging premiums
+
+  - intent: penalties
+    examples: |
+      - What are the penalties for violating rent control laws?
+      - Tell me about the penalties for rent control violations
+      - Explain the penalties for rent control violations
+
+  - intent: permitted_increase_of_rent
+    examples: |
+      - When is a rent increase permitted?
+      - Tell me about the conditions for permitted rent increases
+      - Explain the permitted increase of rent
+
+  - intent: establishment_of_board
+    examples: |
+      - What is the Rent Conciliation Board?
+      - Tell me about the establishment of the Rent Conciliation Board
+      - Explain the Rent Conciliation Board
+
+  - intent: powers_of_the_board
+    examples: |
+      - What are the powers of the Rent Conciliation Board?
+      - Tell me about the powers of the Board
+      - Explain the powers of the Rent Conciliation Board
+
+  - intent: review_and_appeals
+    examples: |
+      - How can the Board’s orders be reviewed?
+      - Tell me about the review and appeals process
+      - Explain the review and appeals process
+
+  - intent: restriction_on_recovery_of_possession
+    examples: |
+      - What are the restrictions on recovering possession?
+      - Tell me about the restriction on recovery of possession
+      - Explain the restriction on recovery of possession
+
+  - intent: additional_grounds_for_domestic_premises
+    examples: |
+      - What are the additional grounds for recovering domestic premises?
+      - Tell me about the additional grounds for domestic premises
+      - Explain the additional grounds for domestic premises
+
+  - intent: compensation_to_tenants
+    examples: |
+      - Can tenants get compensation if possession was obtained through misrepresentation?
+      - Tell me about compensation to tenants
+      - Explain the compensation to tenants
+
+  - intent: courts_discretion
+    examples: |
+      - What is the court’s discretion in tenancy cases?
+      - Tell me about the court’s discretion
+      - Explain the court’s discretion
+
+  - intent: bot_challenge
+    examples: |
+      - Are you a robot?
+      - Are you a bot?
+      - Are you human?
+      - What are you?
+      - Is this an automated service?
+
+  - intent: greet
+    examples: |
+      - Hello
+      - Hi
+      - Hey there
+      - Greetings
+      - Good morning
+      - Good afternoon
+      - Good evening
+
+  - intent: goodbye
+    examples: |
+      - Goodbye
+      - Bye
+      - See you later
+      - Farewell
+      - Talk to you later
+      - Catch you later
+
+
+  - intent: clarification_needed
+    examples: |
+      - Can you clarify?
+      - What do you mean?
+      - I don't understand.
+      - Can you be more specific?
+      - Could you please clarify that?
+      - What do you mean by that?
+  
+
+      
+  - intent: failure_to_obtain_approval
+    examples: |
+      - What happens if I don’t get HDB's approval to rent out my bedrooms?
+      - What are the penalties for not obtaining approval before renting out rooms?
+      - Can I face consequences for renting out bedrooms without approval?
+
+  - intent: rental_period
+    examples: |
+      - What is the maximum rental period for bedrooms?
+      - How long can I rent out bedrooms for?
+      - Are there restrictions on the rental period for tenants?
+
+  - intent: terms_and_conditions
+    examples: |
+      - What are the conditions for renting out bedrooms?
+      - Can you explain the terms for renting out rooms?
+      - What do I need to ensure when renting out bedrooms?
+
+  - intent: proof_of_tenancy
+    examples: |
+      - How can I prove my tenants are registered with HDB?
+      - Where can I get proof of tenancy for my tenants?
+      - Can I provide proof of my tenants' registration with HDB?
+
+
+
+  - intent: singles_eligibility
+    examples: |
+      - What is the eligibility for singles buying an HDB flat?
+      - Can a single aged 35 and above buy an HDB flat on their own?
+      - Tell me about the core nucleus for singles.
+
+  - intent: singles_flat_types
+    examples: |
+      - What types of flats can singles buy?
+      - Are there any restrictions on renting out flats for singles?
+      - Can singles rent out their flat for non-residential purposes?
+
+  - intent: singles_rental_period
+    examples: |
+      - What is the rental period for singles?
+      - How long can singles rent out a flat?
+      - Are there any restrictions on short-term rentals?
+  - intent: ask_lease_buyback_scheme
+    examples: |
+      - What is the Lease Buyback Scheme?
+      - Can you tell me about the Lease Buyback Scheme eligibility?
+      - How does the Lease Buyback Scheme work?
+      
+  - intent: ask_enhanced_cpf_housing_grant
+    examples: |
+      - What is the Enhanced CPF Housing Grant?
+      - Can you tell me about the Enhanced CPF Housing Grant eligibility?
+      - How does the Enhanced CPF Housing Grant work?
+
+  - intent: ask_hdb_inheritance
+    examples: |
+      - What is the process of inheriting an HDB flat?
+      - How does HDB inheritance work?
+      - Can you explain HDB inheritance?
+
+  - intent: ask_inheritance_eligibility
+    examples: |
+      - What are the eligibility conditions for inheriting an HDB flat?
+      - Who can take over an HDB flat if the owner passes away?
+      - What are the requirements for inheriting an HDB flat?
+
+  - intent: ask_religion_inheritance
+    examples: |
+      - How does religion affect HDB inheritance?
+      - What are the inheritance rules for Muslims regarding HDB flats?
+      - How is an HDB flat inherited if the deceased was non-Muslim?
+
+  - intent: ask_ownership_types
+    examples: |
+      - What is the difference between joint tenancy and tenancy-in-common in HDB flats?
+      - How does co-ownership affect HDB inheritance?
+      - Can you explain joint tenancy and tenancy-in-common for HDB flats?
+
+  - intent: ask_inheritance_process
+    examples: |
+      - What is the process for inheriting an HDB flat?
+      - How do I transfer HDB ownership after someone passes away?
+      - What steps are involved in inheriting an HDB flat?
+
+  - intent: ask_prs_eligibility
+    examples: |
+      - What are the eligibility criteria for the Public Rental Scheme?
+      - How do I qualify for the PRS?
+      - Can you tell me about the Public Rental Scheme eligibility?
+
+  - intent: ask_property_ownership
+    examples: |
+      - What are the property ownership requirements for PRS?
+      - Can I apply for PRS if I previously owned property?
+      - Are there any property ownership restrictions for the Public Rental Scheme?
+
+
+
+  - intent: ask_lbs_bonus
+    examples: |
+      - How is the LBS bonus determined?
+      - What is the maximum bonus I can get under the Lease Buyback Scheme?
+      - How much bonus can I receive for my flat?
+
+  - intent: ask_top_up_requirements
+    examples: |
+      - What are the top-up requirements for the Lease Buyback Scheme?
+      - How much do I need to top up my CPF RA for LBS?
+      - What are the top-up amounts based on my age?
+
+  - intent: ask_lease_options
+    examples: |
+      - What lease options are available under the LBS?
+      - How long can I retain the lease if I join the Lease Buyback Scheme?
+      - What are the lease retention options based on my age?
+
+
+  - intent: ask_housing_options
+    examples: |
+      - How do housing options affect PRS eligibility?
+      - Will I be eligible for PRS if I can rent from the open market?
+      - What if I can afford other housing options?
+
+  - intent: ask_family_support
+    examples: |
+      - How does family support affect PRS eligibility?
+      - Can I apply for PRS if my children can house me?
+      - What are the family support requirements for the Public Rental Scheme?
+
+
+  - intent: singles_eligibility_conditions
+    examples: |
+      - What are the eligibility conditions for singles buying an HDB flat?
+      - Are there any ownership restrictions for singles?
+      - What about previous housing subsidies for singles?
+
+  - intent: singles_cpf_grants
+    examples: |
+      - What CPF housing grants are available for singles?
+      - Can singles apply for the Enhanced CPF Housing Grant?
+      - Tell me about the Proximity Housing Grant for singles.
+
+
+  - intent: core_nucleus_info
+    examples: |
+      - What is a core nucleus?
+      - Tell me about the core nucleus requirements.
+      - What are the rules for core nucleus in HDB?
+
+  - intent: core_nucleus_eligibility_conditions
+    examples: |
+      - What are the eligibility conditions for buying new and resale flats?
+      - Can you explain the eligibility conditions for core nucleus applicants?
+      - Are there any income ceilings or property ownership restrictions?
+
+
+  - intent: seniors_flat_info
+    examples: |
+      - What flats can seniors buy?
+      - Tell me about the flats available for seniors.
+      - What are the options for seniors purchasing HDB flats?
+
+  - intent: seniors_eligibility_conditions
+    examples: |
+      - What are the eligibility conditions for seniors buying HDB flats?
+      - Can you explain the income ceiling and age requirements for seniors?
+      - What are the conditions for buying short-lease 2-room Flexi flats and Community Care Apartments?
+
+
+  - intent: ask_electrical_work_permit
+    examples: |
+      - What are the requirements for electrical work permits?
+      - Can you provide information about permits for electrical work?
+
+  - intent: ask_ac_installation
+    examples: |
+      - What are the conditions for installing an air-conditioner?
+      - Can you provide information about air-conditioner installation requirements?
+
+  - intent: ask_windows_grilles_guidelines
+    examples: |
+      - What are the guidelines for windows and grilles?
+      - Do I need a permit for installing window grilles?
+  - intent: ask_hdb_loan
+    examples: |
+      - What can you tell me about HDB loans?
+      - How do I apply for an HDB housing loan?
+      - What are the terms for HDB loans?
+
+  - intent: ask_hdb_eligibility
+    examples: |
+      - What are the eligibility conditions for buying an HDB flat?
+      - Can you tell me about HDB flat eligibility?
+      - Who is eligible to purchase HDB flats?
+
+  - intent: ask_hdb_flats
+    examples: |
+      - What types of HDB flats are available?
+      - Can you provide information on HDB flats?
+      - What are the different HDB flat options?
+
+  - intent: ask_hdb_subsidies
+    examples: |
+      - What are the HDB subsidies available?
+      - How can I apply for HDB subsidies?
+      - Tell me about the housing subsidies.
+
+  - intent: ask_hdb_grants
+    examples: |
+      - What CPF housing grants can I apply for?
+      - Tell me about the Enhanced CPF Housing Grant.
+      - Are there any grants for purchasing HDB flats?
+
+
+
+

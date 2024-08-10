@@ -1,0 +1,259 @@
+version: "3.1"
+
+rules:
+  - rule: respond to restriction on increasing rent
+    steps:
+      - intent: restriction_on_increasing_rent
+      - action: utter_restriction_on_increasing_rent
+
+  - rule: respond to charging of premium prohibited
+    steps:
+      - intent: charging_of_premium_prohibited
+      - action: utter_charging_of_premium_prohibited
+
+  - rule: respond to penalties
+    steps:
+      - intent: penalties
+      - action: utter_penalties
+
+  - rule: respond to permitted increase of rent
+    steps:
+      - intent: permitted_increase_of_rent
+      - action: utter_permitted_increase_of_rent
+
+  - rule: respond to establishment of board
+    steps:
+      - intent: establishment_of_board
+      - action: utter_establishment_of_board
+
+  - rule: respond to powers of the board
+    steps:
+      - intent: powers_of_the_board
+      - action: utter_powers_of_the_board
+
+  - rule: respond to review and appeals
+    steps:
+      - intent: review_and_appeals
+      - action: utter_review_and_appeals
+
+  - rule: respond to restriction on recovery of possession
+    steps:
+      - intent: restriction_on_recovery_of_possession
+      - action: utter_restriction_on_recovery_of_possession
+
+  - rule: respond to additional grounds for domestic premises
+    steps:
+      - intent: additional_grounds_for_domestic_premises
+      - action: utter_additional_grounds_for_domestic_premises
+
+  - rule: respond to compensation to tenants
+    steps:
+      - intent: compensation_to_tenants
+      - action: utter_compensation_to_tenants
+
+  - rule: respond to courts discretion
+    steps:
+      - intent: courts_discretion
+      - action: utter_courts_discretion
+
+  - rule: Greet the user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Say goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Respond to bot challenge
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  - rule: respond to failure to obtain approval
+    steps:
+      - intent: failure_to_obtain_approval
+      - action: utter_failure_to_obtain_approval
+
+  - rule: respond to rental period
+    steps:
+      - intent: rental_period
+      - action: utter_rental_period
+
+  - rule: respond to terms and conditions
+    steps:
+      - intent: terms_and_conditions
+      - action: utter_terms_and_conditions
+
+  - rule: respond to proof of tenancy
+    steps:
+      - intent: proof_of_tenancy
+      - action: utter_proof_of_tenancy
+
+
+  - rule: Ask for more details
+    steps:
+      - intent: clarification_needed
+      - action: utter_clarification_needed
+
+
+
+  - rule: respond to singles eligibility
+    steps:
+      - intent: singles_eligibility
+      - action: utter_singles_eligibility
+
+  - rule: respond to singles flat types
+    steps:
+      - intent: singles_flat_types
+      - action: utter_singles_flat_types
+
+  - rule: respond to singles rental period
+    steps:
+      - intent: singles_rental_period
+      - action: utter_singles_rental_period
+
+  - rule: respond to singles eligibility conditions
+    steps:
+      - intent: singles_eligibility_conditions
+      - action: utter_singles_eligibility_conditions
+
+  - rule: respond to singles CPF grants
+    steps:
+      - intent: singles_cpf_grants
+      - action: utter_singles_cpf_grants
+
+
+  - rule: respond to core nucleus information
+    steps:
+      - intent: core_nucleus_info
+      - action: utter_core_nucleus_info
+
+  - rule: respond to core nucleus eligibility conditions
+    steps:
+      - intent: core_nucleus_eligibility_conditions
+      - action: utter_core_nucleus_eligibility_conditions
+
+  - rule: respond to seniors' flats information
+    steps:
+      - intent: seniors_flat_info
+      - action: utter_seniors_flat_info
+
+  - rule: respond to seniors' eligibility conditions
+    steps:
+      - intent: seniors_eligibility_conditions
+      - action: utter_seniors_eligibility_conditions
+
+
+  - rule: Handle HDB loan inquiries
+    steps:
+      - intent: ask_hdb_loan
+      - action: utter_hdb_loan_info
+
+  - rule: Handle HDB eligibility inquiries
+    steps:
+      - intent: ask_hdb_eligibility
+      - action: utter_hdb_eligibility
+
+  - rule: Handle HDB flats inquiries
+    steps:
+      - intent: ask_hdb_flats
+      - action: utter_hdb_flats
+
+  - rule: Handle HDB subsidies inquiries
+    steps:
+      - intent: ask_hdb_subsidies
+      - action: utter_hdb_subsidies
+
+  - rule: Handle HDB grants inquiries
+    steps:
+      - intent: ask_hdb_grants
+      - action: utter_hdb_grants
+
+
+
+  - rule: Provide air-conditioner installation information
+    steps:
+      - intent: ask_ac_installation
+      - action: utter_ac_installation_info
+
+
+  - rule: Provide electrical work permit information
+    steps:
+      - intent: ask_electrical_work_permit
+      - action: utter_electrical_work_permit_info
+  - rule: Provide windows and grilles guidelines
+    steps:
+      - intent: ask_windows_grilles_guidelines
+      - action: utter_windows_grilles_guidelines
+  - rule: Provide Enhanced CPF Housing Grant details
+    steps:
+      - intent: ask_enhanced_cpf_housing_grant
+      - action: utter_enhanced_cpf_housing_grant
+
+  - rule: Provide Lease Buyback Scheme details
+    steps:
+      - intent: ask_lease_buyback_scheme
+      - action: utter_lease_buyback_scheme
+
+
+  - rule: Explain LBS bonus
+    steps:
+      - intent: ask_lbs_bonus
+      - action: utter_lbs_bonus
+
+  - rule: Detail top-up requirements
+    steps:
+      - intent: ask_top_up_requirements
+      - action: utter_top_up_requirements
+
+  - rule: Describe lease options
+    steps:
+      - intent: ask_lease_options
+      - action: utter_lease_options
+
+
+  - rule: Provide HDB inheritance overview
+    steps:
+      - intent: ask_hdb_inheritance
+      - action: utter_hdb_inheritance
+
+  - rule: Provide HDB inheritance eligibility conditions
+    steps:
+      - intent: ask_inheritance_eligibility
+      - action: utter_inheritance_eligibility
+
+  - rule: Explain religion's impact on inheritance
+    steps:
+      - intent: ask_religion_inheritance
+      - action: utter_religion_inheritance
+  - rule: Provide PRS eligibility information
+    steps:
+      - intent: ask_prs_eligibility
+      - action: utter_prs_eligibility
+
+  - rule: Explain property ownership requirements
+    steps:
+      - intent: ask_property_ownership
+      - action: utter_property_ownership
+
+  - rule: Discuss housing options and PRS eligibility
+    steps:
+      - intent: ask_housing_options
+      - action: utter_housing_options
+
+  - rule: Describe family support impact on PRS
+    steps:
+      - intent: ask_family_support
+      - action: utter_family_support
+
+  - rule: Explain ownership types
+    steps:
+      - intent: ask_ownership_types
+      - action: utter_ownership_types
+
+  - rule: Describe the inheritance process
+    steps:
+      - intent: ask_inheritance_process
+      - action: utter_inheritance_process
